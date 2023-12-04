@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@next/third-parties':
+        specifier: ^14.0.3
+        version: 14.0.3(next@14.0.3)(react@18.2.0)
     devDependencies:
       '@changesets/cli':
         specifier: ^2.26.2
@@ -5006,6 +5010,17 @@ packages:
       react: ^18.2.0
     dependencies:
       next: 13.5.6(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      third-party-capital: 1.0.20
+    dev: false
+
+  /@next/third-parties@14.0.3(next@14.0.3)(react@18.2.0):
+    resolution: {integrity: sha512-TTFuDDenb2dzO84g+S7jMfhqvw2+4bi3Xu6qdtWk1vpywHeSZNSSY9clwF15YxdBvrdRXV/Gez1AjDjCfiQiOA==}
+    peerDependencies:
+      next: ^13.0.0 || ^14.0.0
+      react: ^18.2.0
+    dependencies:
+      next: 14.0.3(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       third-party-capital: 1.0.20
     dev: false
