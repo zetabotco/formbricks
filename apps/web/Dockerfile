@@ -34,7 +34,7 @@ RUN corepack enable && corepack prepare pnpm@latest --activate
 
 RUN apk add --no-cache curl \
     # && addgroup --system --gid 1001 nodejs \
-    && adduser --system --uid 1001 nextjs
+    && addgroup --system --gid 1001 nextjs && adduser --system --uid 1001 nextjs
 
 WORKDIR /home/nextjs
 
