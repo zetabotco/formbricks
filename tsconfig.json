@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@next/third-parties/google": ["./node_modules/@next/third-parties/dist/google"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  }
+}
