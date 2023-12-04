@@ -58,8 +58,5 @@
     "budgetPercentIncreaseRed": 20,
     "minimumChangeThreshold": 0,
     "showDetails": true
-  },
-  "dependencies": {
-    "@next/third-parties": "^14.0.3"
   }
 }

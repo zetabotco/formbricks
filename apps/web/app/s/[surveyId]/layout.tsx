@@ -1,5 +1,5 @@
 import LegalFooter from "@/app/s/[surveyId]/components/LegalFooter";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/dist/google";
 import { GTM_ID } from "@formbricks/lib/constants";
 
 export default async function SurveyLayout({ children }) {
