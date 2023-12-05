@@ -1,5 +1,5 @@
 # Installer stage: Building the application
-FROM node:18-alpine AS installer
+FROM node:19-alpine AS installer
 RUN corepack enable && corepack prepare pnpm@latest --activate
 
 # Install Supercronic (cron for containers without super user privileges)
